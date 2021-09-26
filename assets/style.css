@@ -1,3 +1,4 @@
+/* Make all font colors white */
 * {
     color:#ffffff
 }
@@ -8,8 +9,6 @@ header {
     background-color: #58c19e;
     color: #ffffff;
     border: dashed #e7f6f1;
-    
- 
 }
 
 nav {
@@ -17,14 +16,14 @@ nav {
     margin-right: 20px;
     
 }
-
+/* sets nav to the right side */
 nav ul {
     list-style-type: none;
     display: inline-block;
     color: #ffffff;
     float: right;
 }
-
+/* sets nav list in horizontal direction */
 nav ul li {
    
     margin-left: 25px;
@@ -37,7 +36,7 @@ nav h1 {
 
 }
 
-
+/* sets headshot img to the left and makes it circular*/
 .headshot {
     height: 20%;
     width: 20%;
@@ -46,18 +45,19 @@ nav h1 {
     float: left;
    
 }
-
+/* sets horiseon thumbnail size */
 .horiseon {
     height: 50%;
     width: 50%;
 }
-
+/* set img size for remaining images */
 img {
     height: 35%;
     width: 35%;
     padding-top: 15px;
 
 }
+/* makes hyplerlinks white */
 a {
     color: #ffffff;
 }
@@ -65,7 +65,7 @@ a {
 body {
     background-color: #b7e4d5;
 }
-
+/* sets format for main sections */
 main section {
 border: solid #e7f6f1;
 padding: 5px;
@@ -74,7 +74,7 @@ float: right;
 background-color: #88d3ba;
 }
 
-
+/* separates contact info from other body sections/ aligns */
 footer {
     padding: 30px;
     clear: both;
